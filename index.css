@@ -1,0 +1,25 @@
+.navbar-brand img{
+    height: 50px;
+    border-radius: 50%;
+
+}
+.navbar-nav{
+    gap: 2rem;
+}
+@media (max-width:576px){
+    .navbar-nav{
+        gap: 0;
+    }
+}
+.my-intro{
+    margin-top: 10rem;
+    font-family: monospace;
+}
+.mypic{
+    
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+*{
+    overflow-x: none;
+}
